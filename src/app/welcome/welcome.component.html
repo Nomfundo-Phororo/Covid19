@@ -1,0 +1,81 @@
+<p>welcome works!</p>
+<div class="jumbotron bg ">
+    <h1 class="display-4" style="text-align: left;">Protect Yourself And Your Family From COVID-19</h1>
+    <p class="lead">Save The Planet From Coronavirus</p>
+    <hr class="my-4">
+    <p> Get real-Time information about Covid-19 to stay healthy at all cost during this pandemic, for you and your loved ones</p>
+  
+  </div>
+
+  <h1>Corona Virus Symptoms</h1>
+  <hr class="my-4">
+  <section class="row Container-fluid  pt-4 bg2" >
+
+    <div class="size col-md-4" *ngFor='let symptom of symptoms' >
+      <img class="symptoms" [src]='[symptom.imageUrl]'>
+      <ul>
+        <li id="symptomName">{{symptom.SymptomName}}</li>
+      </ul>
+  </div>
+
+  <div class="row container-fluid" style="width: 90%;margin: 200px;">
+        <div class="col-md-6" style="float: left;">
+          <figure class="figure">
+            <img src="/assets/images/01.jpg" class="figure-img img-fluid rounded" alt="know more about the virus">
+           
+          </figure>
+        </div>
+         
+ 
+          <div class="col-md-6"  >
+            <h2>Preventive Habits</h2>
+            <hr class="my-4">
+              <div class="card mb-3" style="border-color: white;"  >
+                <div class="row no-gutters" style="text-align: left; ">
+                  <div class="col-md-1.5">
+                    <img src="/assets/images/prevention/hands.jpg"  alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body" style="display: inline-block;">
+                      <h4 class="card-title" >Wash Your Hands For 20sec</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3" style="border-color: white;" >
+                <div class="row no-gutters" style="text-align: left;">
+                  <div class="col-md-1.5">
+                    <img src="/assets/images/prevention/mask.jpg"  alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body" style="display: inline-block;">
+                      <h4 class="card-title">Always wear a mask</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3" style="border-color: white;" >
+                <div class="row no-gutters" style="text-align: left;">
+                  <div class="col-md-1.5">
+                    <img src="/assets/images/prevention/cnose.jpg"  alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body" style="display: inline-block;">
+                      <h4 class="card-title" >Cover Nose and Mouth When Sneezing</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+      </div>
+      <div class="jumbotron bg3 ">
+        <h1 class="display-4">Mapping The Coronavirus Outbreak</h1>
+     
+        <hr class="my-4">
+        <a class="btn button  btn-lg" routerLink="/Statistics" routerLinkActive="active" role="button" style="border-color: #0A363E; background-color: transparent;">Read more</a>
+      </div>
+  </section>
+  

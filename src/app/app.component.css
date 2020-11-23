@@ -1,0 +1,10 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+.navbar {
+    padding: 10px;
+    
+    background-image: url('/assets/images/bg1.jpg');
+    box-shadow: 5px 10px 18px #2b2a3a;
+    font-size: 26px;
+  }

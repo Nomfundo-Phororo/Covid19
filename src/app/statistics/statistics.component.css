@@ -1,0 +1,76 @@
+.navbar {
+
+    background-image: url('/assets/images/statbg.jpg');
+  }
+  h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.bg{
+    margin-top: 50px;
+    background-image: url('/assets/images/statbg.jpg');
+    color: white;
+    padding: 100px;
+   
+  }
+ 
+
+  .bg2{
+    background-image: url('/assets/images/bg5.png'); 
+ 
+    width: 90%;
+    
+    text-align: center;
+    margin:0 auto;
+    list-style: none;
+    
+    
+  }
+  .graph{
+      width:70%;
+      margin:0 auto;
+  }
+  .imgresizing img{
+      width: 300px;
+  }
+  .rotate {
+    -webkit-animation: spin 15s infinite linear;
+    animation: spin 15s infinite linear;
+
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+li{
+    list-style: none;
+    font-size: 30px;
+}
+.space{
+    margin-top: 300px;
+}
+.bg2{
+    background-image: url('/assets/images/bg2.png'); 
+    width: 90%;
+    text-align: center;
+    margin:0 auto;
+    list-style: none;
+    
+    
+  }
+
+  .vis{
+    background-color: #1B525C;
+  }

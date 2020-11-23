@@ -1,0 +1,34 @@
+[
+    {
+     
+      "SymptomName": "Couphing and Sneezing",
+      "description": "Leaf rake with 48-inch wooden handle.",
+      "imageUrl": "assets/images/coughing.jpg"
+    },
+    {
+        "SymptomName": "Hot Fever",
+        "description": "Leaf rake with 48-inch wooden handle.",
+        "imageUrl": "assets/images/fever.jpg"
+    },
+    {
+        "SymptomName": "Strong Headache",
+        "description": "Leaf rake with 48-inch wooden handle.",
+        "imageUrl": "assets/images/headache.jpg"
+    },
+    {
+        "SymptomName": "Shortness Of Breath",
+        "description": "Leaf rake with 48-inch wooden handle.",
+        "imageUrl": "assets/images/nobreath.jpg"
+    },
+    {
+        "SymptomName": "Sore Throat",
+        "description": "Leaf rake with 48-inch wooden handle.",
+        "imageUrl": "assets/images/sthroat.jpg"
+    },
+    {
+        "SymptomName": "Confusion",
+        "description": "Leaf rake with 48-inch wooden handle.",
+        "imageUrl": "assets/images/confusion.jpg"
+    }
+   
+  ]
